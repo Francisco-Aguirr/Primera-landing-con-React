@@ -1,0 +1,63 @@
+.container-foo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+    background-color:#202027;
+    padding-top: 20px;
+}
+.contact{
+    width: 50%;
+    color: white;
+    display: inline-flex;
+    position: relative;
+}
+.redes{
+    width: 50%;
+    color: white;
+}
+.twit{
+    margin-left: 240px;
+    position: relative;
+    padding-right: 10px;
+}
+.face{
+    margin-left: 50px;
+    position: relative;
+    padding-right: 10px;
+}
+.abu{
+    margin-left: 300px;
+    position: relative;
+    padding-right: 10px;
+}
+.conta{
+    margin-left: 40px;
+    position: relative;
+    padding-right: 10px;
+}
+@media screen and (max-width:768px){
+    .abu{
+        margin-left: 100px;
+    }
+    .twit{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:425px){
+    .container-foo{
+        width: 800px;
+    }
+    .redes{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px){
+    .container-foo{
+        width: 820px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,184 @@
+.container-join{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin: 150px;
+    position: relative;
+}
+.join-form{
+    color: white;
+    background-color: #202027;
+    padding: 35px;
+    border-radius: 10px;
+    height: 100%;
+    width: auto;
+}
+.join-fun{
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.funy{
+    color: #AE457E;
+}
+.btn-join-form{
+    color: white;
+    background-color: #1762A7;
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-join-form:hover{
+    background-color: #2180d8;
+}
+.inputs{
+    background-color: transparent;
+    border: 1px solid #2E3852;
+    height: 30px;
+    width: 350px;
+    color: white;
+    
+}
+input:focus{
+    color: #596da0;
+}
+.circulo1{
+    background-color: #bc3a801a;
+    border-radius: 50%;
+    height: 540px;
+    width: 540px;
+    position: absolute;
+    left: -200px;
+    top: 90px;
+    z-index: -2;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 10%;
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+}
+.circulo2{
+    background-color: #3457b21a;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: 280px;
+    left: 140px;
+    animation-duration: 3s;
+    animation-name: slidein2;
+}
+@keyframes slidein2 {
+    from {
+      margin-left: -10%;
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+}
+@media screen and (max-width:768px){
+    .container-join{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        margin-bottom: 65px;
+    }
+    .join-fun{
+        width: 50%;
+        font-size: 40px;
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+    .join-form{
+        width: 50%;
+    }
+    .circulo1{
+        height: 150px;
+        width: 150px;
+        left: 100px;
+        top: 400px;
+    }
+    .circulo2{
+        left: 500px;
+        z-index: -1;
+    }
+}
+@media screen and (max-width:425px){
+    .container-join{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+    .join-form{
+        width: 100%;
+        margin-left: 350px;
+        margin-top: 100px;
+        padding-right: 150px;
+        height: 100%;
+        font-size: 30px;
+    }
+    .join-fun{
+        width: 100%;
+        font-size: 45px;
+        margin-left: 200px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .inputs{
+        margin: 20px;
+        width: 500px;
+        height: 50px;
+    }
+    .btn-join-form{
+        width: 500px;
+        height: 50px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .circulo1{
+        height: 300px;
+        width: 300px;
+        left: -50px;
+        top: 1050px; 
+    }
+
+    .circulo2{
+        top: -180px;
+        left: 150px;
+        height: 170px;
+        width: 170px;
+    }
+}
+@media screen and (max-width:375px){
+.inputs{
+width: 400px;
+}
+.btn-join-form{
+width: 400px;
+}
+.join-form{
+    margin-bottom: 180px;
+}
+.circulo1{
+    top: 1200px;
+}
+}

@@ -1,0 +1,72 @@
+.container-discover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 108px;
+}
+.discover-new{
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 320px;
+}
+.album-img2{
+    width: 40%;
+    height: 100%;
+}
+.album-img{
+    height:400px ;
+    width:400px ;
+   
+}
+.mic-al-mo{
+    background-color: #202027;
+    margin: 15px;
+    padding:15px;
+}
+@media screen and (max-width:768px){
+    .container-discover{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .discover-new{
+        margin-right: 500px;
+        margin-top: -200px;
+        font-size: 20px;
+        width: 50%;
+    }
+    .album-img2{
+        margin-right: 200px;
+    }
+    .album-img{
+        height: 250px;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:425px){
+    .container-discover{
+        display: flex;
+        flex-direction: column;
+    }
+    .discover-new{
+        margin-right: 0px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        width: 100%;
+    }
+    .album-img{
+        height: 500px;
+        width: 500px;
+        margin-left: 110px;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:375px){
+.album-img{
+    margin-bottom: 160px;
+}
+}

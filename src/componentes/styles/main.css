@@ -1,0 +1,145 @@
+body{
+    background-color: #2F303A;
+}
+.container-main{
+    display:flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.landing-girl2{
+    margin-left: 330px;
+    height: 640px;
+    margin-top: 139px;
+}
+.feel-music{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 120px;
+    font-size: 30px;
+    
+}
+.btn-join{
+    background-color: #1762A7;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.now-join{
+    text-decoration: none;
+    color: white;
+}
+.btn-join:hover {
+    background-color: #2180d8;
+}
+.circulo3{
+    background-color: #ba3e801a;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 90px;
+    top: 390px;
+    z-index: -2;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+}
+.circulo4{
+    background-color: #4367c21a;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 350px;
+    left: 500px;
+    z-index: -1;
+}
+.circulo5{
+    background-color: #3457b21a;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 350px;
+    left: 500px;
+    z-index: -1;
+}
+@media screen and (max-width:768px){
+    .landing-girl2{
+        display: none;
+    }
+    .lan
+    .feel-music{
+        margin-top: 120px;
+    }
+    .circulo4{
+        height: 200px;
+        width: 200px;
+        top: 100px;
+        left: 100px;
+    }
+    .circulo3{
+        height: 150px;
+        width: 150px;
+        top: 450px;
+    }
+}
+@media screen and (max-width:425px){
+    .feel-music{
+        font-size: 35px;
+        margin-left: 100px;
+        margin-top: 250px;
+    }
+    .circulo4{
+        height: 200px;
+        width: 200px;
+        top: 100px;
+        left: 190px;
+    }
+    .circulo3{
+        height: 200px;
+        width: 200px;
+        top: 1150px;
+        left: 20px;
+    }
+    .circulo5{
+        height: 300px;
+        width: 300px;
+        top: 1200px;
+        left: 600px;
+    }
+    .btn-join{
+        height: 60px;
+        width: 160px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:375px){
+    .feel-music{
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 250px;
+    }
+    .btn-join{
+        height: 70px;
+        width: 220px;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+}
