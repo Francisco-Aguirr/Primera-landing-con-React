@@ -12,7 +12,7 @@ const Main = () => {
         <div className="circulo3"></div>
         <div className="circulo4"></div>
         <div className="circulo5"></div>
-        <d    iv className="feel-music">
+        <div className="feel-music">
           <h1>Feel The Music</h1>
           <p>Stream over 20 thousand songs with one click</p>
           <button className="btn-join"><Link to="/Join" className="now-join">Join Now</Link></button>
